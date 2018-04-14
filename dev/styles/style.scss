@@ -2,11 +2,46 @@
 @import 'components/base';
 @import 'components/typography';
 
-.container {
-	max-width: 900px;
-	margin: 0 auto;
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
 }
 
-* {
-	outline: 1px solid red;
+h1 {
+	margin-bottom: 0;
+	@media screen and (max-width: 513px) {
+		font-size: 25px;
+	}
+	@media screen and (max-width: 430px) {
+		font-size: 20px;
+	}
+}
+
+.quoteDiv {
+	font-size: 25px;
+	padding: 30px;
+	color: #102E3C;
+	text-align: center;
+	@media screen and (max-width: 513px) {
+		font-size: 17px;
+	}
+}
+
+
+button {
+	font-size: 18px;
+	padding: 16px 65px;
+	border-radius: 3px;
+	border: none;
+	margin: 0 auto;
+	background-color: #C79B00;
+	color: white;
+	letter-spacing: 1.5px;
+}
+
+button:hover {
+
 }

@@ -528,9 +528,46 @@ template {
 body {
   font-size: 16px; }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto; }
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px; }
 
-body {
-  background: red; }
+h1 {
+  margin-bottom: 0; }
+  @media screen and (max-width: 513px) {
+    h1 {
+      font-size: 25px; } }
+  @media screen and (max-width: 430px) {
+    h1 {
+      font-size: 20px; } }
+
+.quoteDiv {
+  font-size: 25px;
+  padding: 30px;
+  color: #102E3C;
+  text-align: center; }
+  @media screen and (max-width: 513px) {
+    .quoteDiv {
+      font-size: 17px; } }
+
+button {
+  font-size: 18px;
+  padding: 16px 65px;
+  border-radius: 3px;
+  border: none;
+  margin: 0 auto;
+  background-color: #C79B00;
+  color: white;
+  letter-spacing: 1.5px; }
