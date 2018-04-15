@@ -16,7 +16,7 @@ h1 {
 		font-size: 25px;
 	}
 	@media screen and (max-width: 430px) {
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 
@@ -37,11 +37,15 @@ button {
 	border-radius: 3px;
 	border: none;
 	margin: 0 auto;
-	background-color: #C79B00;
+	background-color: $color1;
 	color: white;
 	letter-spacing: 1.5px;
 }
 
 button:hover {
+	background-color: $color2
+}
 
+button:focus {
+	background-color: $color2;
 }

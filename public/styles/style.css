@@ -551,7 +551,7 @@ h1 {
       font-size: 25px; } }
   @media screen and (max-width: 430px) {
     h1 {
-      font-size: 20px; } }
+      font-size: 17px; } }
 
 .quoteDiv {
   font-size: 25px;
@@ -571,3 +571,9 @@ button {
   background-color: #C79B00;
   color: white;
   letter-spacing: 1.5px; }
+
+button:hover {
+  background-color: #947300; }
+
+button:focus {
+  background-color: #947300; }
